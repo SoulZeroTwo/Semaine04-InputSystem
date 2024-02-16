@@ -1,0 +1,56 @@
+{
+    "name": "SpaceshipInput",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "05b82715-889b-4cf5-a97d-dbae47217e75",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "b886ee4d-6d20-4561-b17f-184f3c4aac71",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Direction",
+                    "id": "4aca625b-f093-4b1d-bd62-b3bbadc766a3",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Left",
+                    "id": "c74f4d84-fa13-4e5e-91e9-bfc5fd88cdc4",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "8ba03ec0-7769-4300-aa07-f466e78dd689",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
