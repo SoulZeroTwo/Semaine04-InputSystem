@@ -17,6 +17,10 @@ public class CubeExplosion : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision other) {
-        gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        if(other.gameObject.CompareTag("Floor"))
+        {
+            transform.GetChild(0).gameObject.SetActive(true);
+        }
+        
     }
 }

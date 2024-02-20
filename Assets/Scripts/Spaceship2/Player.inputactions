@@ -28,50 +28,6 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Up",
-                    "id": "9b46e9c8-37ea-4672-8d6d-9db0a68144f0",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Up",
-                    "id": "b17a5ee2-61af-4c2a-9646-d3dfd34987df",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Down",
-                    "id": "206c3301-87eb-4021-ac93-52d8108f65c1",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Down",
-                    "id": "dd846e83-146d-43e7-898d-5206c7ac0f35",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "Left",
                     "id": "94ca7acb-f0db-4ceb-a503-0a5239b59e01",
                     "path": "<Keyboard>/a",

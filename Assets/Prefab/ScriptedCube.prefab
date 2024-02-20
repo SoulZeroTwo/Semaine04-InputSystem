@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 2578642618625519166}
   m_Layer: 7
   m_Name: ScriptedCube
-  m_TagString: Danger
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,7 +335,7 @@ Transform:
   m_Children:
   - {fileID: 1082237961594826992}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &93198364234935843
 MeshFilter:
@@ -447,7 +447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a438b9648c85c42bd6fe07a2b0d4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _floor: {fileID: 0}
 --- !u!1 &8815106270651839566
 GameObject:
   m_ObjectHideFlags: 0

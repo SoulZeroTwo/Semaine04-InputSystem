@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Danger
   - Floor
+  - Point
   layers:
   - Default
   - TransparentFX
